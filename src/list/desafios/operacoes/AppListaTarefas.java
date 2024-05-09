@@ -1,6 +1,6 @@
 package list.desafios.operacoes;
 
-public class App {
+public class AppListaTarefas {
     public static void main(String[] args) {
 
         ListaTarefas listaTarefa = new ListaTarefas();
