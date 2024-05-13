@@ -23,17 +23,6 @@ public class Convidado {
         return codigo;
     }
 
-    @Override
-    public boolean equals(Object o) {
-        if (this == o) return true;
-        if (!(o instanceof Convidado convidado)) return false;
-        return getCodigo() == convidado.getCodigo();
-    }
-
-    @Override
-    public int hashCode() {
-        return Objects.hashCode(getCodigo());
-    }
 
     @Override
     public String toString() {
